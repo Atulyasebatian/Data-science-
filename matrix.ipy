@@ -1,0 +1,42 @@
+import numpy as np
+
+a=np.array([[1,2],[3,4]])
+b=np.array([[5,6],[7,8]])
+
+add=a+b
+sub=a-b
+mul=a*b
+trans=a.T
+dot=a@b
+
+print("Matrix a:\n", a)
+print("Matrix b:\n", b)
+
+print("\nAddition:\n",add)
+print("Subtraction:\n",sub)
+print("Multiplication:\n",mul)
+print("Transpose:\n",trans)
+print("Dot product:\n",dot)
+
+ANs) Matrix a:
+ [[1 2]
+ [3 4]]
+Matrix b:
+ [[5 6]
+ [7 8]]
+
+Addition:
+ [[ 6  8]
+ [10 12]]
+Subtraction:
+ [[-4 -4]
+ [-4 -4]]
+Multiplication:
+ [[ 5 12]
+ [21 32]]
+Transpose:
+ [[1 3]
+ [2 4]]
+Dot product:
+ [[19 22]
+ [43 50]]
